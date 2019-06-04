@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-vuex-storyblok-demo",
+  "version": "1.0.0",
+  "description": "My outstanding Nuxt.js project",
+  "author": "Dominik Angerer",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.4.0",
+    "storyblok-js-client": "^1.0.24",
+    "storyblok-nuxt": "^1.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}

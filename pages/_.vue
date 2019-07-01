@@ -39,6 +39,8 @@ export default {
       starts_with: 'menues/'
     })
 
+    context.store.dispatch('loadInActionExample', { data: 'test', context: context })
+
     context.store.commit('setStory', storyResponse.data.story)
     context.store.commit('setMenus', menuesResponse.data.stories)
 

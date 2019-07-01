@@ -13,3 +13,12 @@ export const mutations = {
     state.menus = value
   }
 }
+
+export const actions = {
+  loadInActionExample(storeContext, nuxtContext) {
+    // available: this.$storyapi
+    // nuxtContext -> whole $nuxt.
+    
+    // storeContext.commit('setMenues')
+  }
+}

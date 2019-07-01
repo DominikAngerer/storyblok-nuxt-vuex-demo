@@ -15,9 +15,10 @@ export const mutations = {
 }
 
 export const actions = {
-  loadInActionExample(storeContext, nuxtContext) {
+  loadInActionExample(storeContext, payload) {
     // available: this.$storyapi
-    // nuxtContext -> whole $nuxt.
+    // payload.data -> params
+    // payload.context -> whole nuxt context.
     
     // storeContext.commit('setMenues')
   }
